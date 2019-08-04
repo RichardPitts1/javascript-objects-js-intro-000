@@ -12,14 +12,18 @@ function updatePlaylist(playlist, artistName, songTitle) {
   return playlist;
 }
 
-console.log(updatePlaylist(playlist, aName, aTitle));
+// console.log(updatePlaylist(playlist, aName, aTitle));
 
 function removeFromPlaylist(playlist, artistName, songTitle) {
   delete playlist(artistName, songTitle);
   return playlist;
 }
 
-console.log(removeFromPlaylist(playlist, aName, aTitle));
+// console.log(removeFromPlaylist(playlist, aName, aTitle));
 
 
 
+array = [t1, t2, t3, t4]
+
+
+Object.assign({}, array, ['thing'], ['thing2'])
