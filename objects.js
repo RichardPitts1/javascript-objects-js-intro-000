@@ -34,7 +34,9 @@ console.log(runny(array));
 console.log(array);
 
 
-
+function updatePlaylist(object, artistName, songTitle) {
+  
+}
 
 
 
