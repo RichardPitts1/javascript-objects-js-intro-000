@@ -23,7 +23,20 @@ function removeFromPlaylist(playlist, artistName, songTitle) {
 
 
 
-array = [t1, t2, t3, t4]
+array = [t1, t2, t3, t4];
+
+function runny() {
+Object.assign({}, array, ['thing'], ['thing2']);
+}
+runny();
+
+console.log(array);
 
 
-Object.assign({}, array, ['thing'], ['thing2'])
+
+
+
+
+
+
+
