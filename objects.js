@@ -29,7 +29,7 @@ function runny(array) {
 return Object.assign({}, array, ['thing'], ['thing2']);
  
 }
-runny(array);
+console.log(runny(array));
 
 console.log(array);
 
